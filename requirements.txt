@@ -1,0 +1,20 @@
+# Microgrid RL — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core RL
+stable-baselines3[extra]==2.3.2
+gymnasium==0.29.1
+# If stable-baselines3 still uses old gym:
+gym==0.26.2
+
+# ML / numerics
+numpy>=1.24
+pandas>=2.0
+torch>=2.0       # PyTorch — CPU version is fine for training & Pi deployment
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+
+# Optional – web dashboard
+flask>=3.0
